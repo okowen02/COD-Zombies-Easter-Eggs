@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="okowen02">
+    <meta name="description" content="Tracker for COD Zombies maps.">
+    <meta name="keywords" content="COD, Call of Duty, Zombies, Tracker, Black Ops, Black Ops 4, BO4">
+
+    <!-- imports -->
+    <link rel="stylesheet" type="text/css" href="../css/voyage.css">
+    <script src="../js/voyage.js" defer></script>
+
+    <!-- title -->
+    <title>Voyage of Despair - Step Tracker</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+
+        <div class="navbar-links navbar-title">Call Of Duty - Zombies Easter Egg Tracker</div>
+
+        <a class="navbar-elements navbar-links" href="index.html">
+            <div class="navbar-links">Home</div>
+        </a>
+
+        <a class="navbar-elements navbar-links" href="index.html">
+            <div class="navbar-links">Black Ops 3</div>
+        </a>
+
+        <a class="navbar-elements navbar-links" href="index.html">
+            <div class="navbar-links">Black Ops 4</div>
+        </a>
+
+    </nav>
+
+    <div class="split left">
+        <h2>Tracker</h2>
+
+        <fieldset>
+
+            <legend>Clocks</legend>
+
+            <label for="mailClock">Mail Room</label>
+            <br>
+            <img id="mailFire" class="shrink" src="../img/voyage/fire.png">
+            <img id="mailWater" class="shrink" src="../img/voyage/water.png">
+            <img id="mailAir" class="shrink" src="../img/voyage/air.png">
+            <img id="mailEarth" class="shrink" src="../img/voyage/earth.png">
+            <input type="time" id="mailClock">
+            <button id="mailReset">Reset</button>
+
+            <br><br>
+
+            <label for="capClock">Captains Room</label>
+            <br>
+            <img id="capFire" class="shrink" src="../img/voyage/fire.png">
+            <img id="capWater" class="shrink" src="../img/voyage/water.png">
+            <img id="capAir" class="shrink" src="../img/voyage/air.png">
+            <img id="capEarth" class="shrink" src="../img/voyage/earth.png">
+            <input type="time" id="capClock">
+            <button id="capReset">Reset</button>
+
+            <br><br>
+
+            <label for="grandClock">Grand Staircase</label>
+            <br>
+            <img id="grandFire" class="shrink" src="../img/voyage/fire.png">
+            <img id="grandWater" class="shrink" src="../img/voyage/water.png">
+            <img id="grandAir" class="shrink" src="../img/voyage/air.png">
+            <img id="grandEarth" class="shrink" src="../img/voyage/earth.png">
+            <input type="time" id="grandClock">
+            <button id="grandReset">Reset</button>
+
+            <br><br>
+
+            <label for="1stClock">1st Class</label>
+            <br>
+            <img id="1stFire" class="shrink" src="../img/voyage/fire.png">
+            <img id="1stWater" class="shrink" src="../img/voyage/water.png">
+            <img id="1stAir" class="shrink" src="../img/voyage/air.png">
+            <img id="1stEarth" class="shrink" src="../img/voyage/earth.png">
+            <input type="time" id="1stClock">
+            <button id="1stReset">Reset</button>
+
+            <br><br>
+
+            <label for="3rdClock">3rd Class</label>
+            <br>
+            <img id="3rdFire" class="shrink" src="../img/voyage/fire.png">
+            <img id="3rdWater" class="shrink" src="../img/voyage/water.png">
+            <img id="3rdAir" class="shrink" src="../img/voyage/air.png">
+            <img id="3rdEarth" class="shrink" src="../img/voyage/earth.png">
+            <input type="time" id="3rdClock">
+            <button id="3rdReset">Reset</button>
+
+            <br><br>
+
+            <label for="galClock">Galley</label>
+            <br>
+            <img id="galFire" class="shrink" src="../img/voyage/fire.png">
+            <img id="galWater" class="shrink" src="../img/voyage/water.png">
+            <img id="galAir" class="shrink" src="../img/voyage/air.png">
+            <img id="galEarth" class="shrink" src="../img/voyage/earth.png">
+            <input type="time" id="galClock">
+            <button id="galReset">Reset</button>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+
+            <legend>Outlets</legend>
+
+            <label>States Room</label>
+            <select id="stateOut">
+                <option></option>
+                <option>Acid</option>
+                <option>Water</option>
+                <option>Electric</option>
+                <option>Fire</option>
+            </select>
+
+            <br><br>
+
+            <label>Grand Staircase</label>
+            <select id="grandOut">
+                <option></option>
+                <option>Acid</option>
+                <option>Water</option>
+                <option>Electric</option>
+                <option>Fire</option>
+            </select>
+
+            <br><br>
+
+            <label>3rd Class</label>
+            <select id="3rdOut">
+                <option></option>
+                <option>Acid</option>
+                <option>Water</option>
+                <option>Electric</option>
+                <option>Fire</option>
+            </select>
+
+            <br><br>
+
+            <label>Aft Decks</label>
+            <select id="aftOut">
+                <option></option>
+                <option>Acid</option>
+                <option>Water</option>
+                <option>Electric</option>
+                <option>Fire</option>
+            </select>
+
+            <br><br>
+
+            <label>Dinning Hall</label>
+            <select id="dineOut">
+                <option></option>
+                <option>Acid</option>
+                <option>Water</option>
+                <option>Electric</option>
+                <option>Fire</option>
+            </select>
+
+            <br><br>
+
+            <label>1st Class</label>
+            <select id="1stOut">
+                <option></option>
+                <option>Acid</option>
+                <option>Water</option>
+                <option>Electric</option>
+                <option>Fire</option>
+            </select>
+
+            <br><br>
+
+            <button id="outletReset">Reset</button>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+
+            <legend>Planet Order</legend>
+
+            <label>1</label>
+            <select id="1Planet">
+                <option></option>
+                <option>Mercury</option>
+                <option>Venus</option>
+                <option>Moon</option>
+                <option>Saturn</option>
+                <option>Mars</option>
+                <option>Jupiter</option>
+                <option>Neptune</option>
+                <option>Uranus</option>
+            </select>
+            <input id="1Done" type="checkbox">
+
+            <br>
+
+            <label>2</label>
+            <select id="2Planet">
+                <option></option>
+                <option>Mercury</option>
+                <option>Venus</option>
+                <option>Moon</option>
+                <option>Saturn</option>
+                <option>Mars</option>
+                <option>Jupiter</option>
+                <option>Neptune</option>
+                <option>Uranus</option>
+            </select>
+            <input id="2Done" type="checkbox">
+
+            <br>
+
+            <label>3</label>
+            <select id="3Planet">
+                <option></option>
+                <option>Mercury</option>
+                <option>Venus</option>
+                <option>Moon</option>
+                <option>Saturn</option>
+                <option>Mars</option>
+                <option>Jupiter</option>
+                <option>Neptune</option>
+                <option>Uranus</option>
+            </select>
+            <input id="3Done" type="checkbox">
+
+            <br>
+
+            <label>4</label>
+            <select id="4Planet">
+                <option></option>
+                <option>Mercury</option>
+                <option>Venus</option>
+                <option>Moon</option>
+                <option>Saturn</option>
+                <option>Mars</option>
+                <option>Jupiter</option>
+                <option>Neptune</option>
+                <option>Uranus</option>
+            </select>
+            <input id="4Done" type="checkbox">
+
+            <br>
+
+            <label>5</label>
+            <select id="5Planet">
+                <option></option>
+                <option>Mercury</option>
+                <option>Venus</option>
+                <option>Moon</option>
+                <option>Saturn</option>
+                <option>Mars</option>
+                <option>Jupiter</option>
+                <option>Neptune</option>
+                <option>Uranus</option>
+            </select>
+            <input id="5Done" type="checkbox">
+
+            <br>
+
+            <label>6</label>
+            <select id="6Planet">
+                <option></option>
+                <option>Mercury</option>
+                <option>Venus</option>
+                <option>Moon</option>
+                <option>Saturn</option>
+                <option>Mars</option>
+                <option>Jupiter</option>
+                <option>Neptune</option>
+                <option>Uranus</option>
+            </select>
+            <input id="6Done" type="checkbox">
+
+            <br>
+
+            <label>7</label>
+            <select id="7Planet">
+                <option></option>
+                <option>Mercury</option>
+                <option>Venus</option>
+                <option>Moon</option>
+                <option>Saturn</option>
+                <option>Mars</option>
+                <option>Jupiter</option>
+                <option>Neptune</option>
+                <option>Uranus</option>
+            </select>
+            <input id="7Done" type="checkbox">
+
+            <br>
+
+            <label>8</label>
+            <select id="8Planet">
+                <option></option>
+                <option>Mercury</option>
+                <option>Venus</option>
+                <option>Moon</option>
+                <option>Saturn</option>
+                <option>Mars</option>
+                <option>Jupiter</option>
+                <option>Neptune</option>
+                <option>Uranus</option>
+            </select>
+            <input id="8Done" type="checkbox">
+
+            <br>
+
+            <label>9</label>
+            <select><option>Sun</option></select>
+            <input id="9Done" type="checkbox">
+
+            <br><br>
+
+            <button id="planetReset">Reset</button>
+
+        </fieldset>
+
+        <br><br>
+
+    </div>
+
+    <div class="split right">
+        <h2>Additional Info</h2>
+
+        <fieldset>
+
+            <legend>Shield Parts</legend>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Kraken Locations</legend>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Kraken Upgrade Parts</legend>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Planet Symbols</legend>
+
+        </fieldset>
+
+    </div>
+
+</body>
+
+</html>
