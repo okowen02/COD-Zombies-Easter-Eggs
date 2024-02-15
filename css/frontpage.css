@@ -1,5 +1,5 @@
 body {
-    background-color: slategray;
+    background-color: rgb(95, 104, 112);
 }
 
 * {
@@ -24,7 +24,7 @@ h2 {
 
 .navbar {
     position: sticky;
-    background-color: gray;
+    background-color: lightslategray;
     top: 0;
     border-width: 4px;
     border-style: solid;
@@ -43,7 +43,7 @@ h2 {
     border-radius: 25px;
     border-style: solid;
     margin: 5px;
-    background-color: slategray;
+    background-color: antiquewhite;
     cursor: pointer;
 }
 
@@ -54,19 +54,30 @@ h2 {
     text-decoration: none;
 }
 
-.maps {
-    display: flexbox;
-}
-
 .map {
-    display: inline-flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    margin-bottom: 5px;
     border-width: 4px;
     border-style: solid;
     border-color: darkslategray;
-    margin: 5px;
 }
 
 .map:hover {
     border-color: brown;
     cursor: pointer;
+}
+
+.contain {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.quad {
+    float: left;
+    width: 25%;
 }
