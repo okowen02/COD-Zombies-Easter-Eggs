@@ -1,3 +1,28 @@
+//Steps, for reseting progress
+document.getElementById("stepsReset").addEventListener("click", (e) => {
+    document.getElementById("step1").checked = false;
+    document.getElementById("step2").checked = false;
+    document.getElementById("step3").checked = false;
+    document.getElementById("step4").checked = false;
+    document.getElementById("step5").checked = false;
+    document.getElementById("step6").checked = false;
+    document.getElementById("step7").checked = false;
+    document.getElementById("step8").checked = false;
+    document.getElementById("step9").checked = false;
+})
+
+//Collectables, for reseting progress
+document.getElementById("collectReset").addEventListener("click", (e) => {
+    document.getElementById("visor").checked = false;
+    document.getElementById("handle").checked = false;
+    document.getElementById("counter").checked = false;
+    document.getElementById("chamber").checked = false;
+    document.getElementById("barrel").checked = false;
+    document.getElementById("tubing").checked = false;
+    document.getElementById("key").checked = false;
+    document.getElementById("decay").checked = false;
+})
+
 //Clocks, for reseting time and location
 document.getElementById("fireReset").addEventListener("click", (e) => {
     document.getElementById("fireClock").value = "Location";

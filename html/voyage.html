@@ -44,9 +44,111 @@
 
         <fieldset>
 
+            <legend>Steps</legend>
+
+            <input id="step1" type="checkbox">
+            <h4>1. The Sentinel Artifact is Yours for the Taking</h4> <br>
+            <p class="steps">Reach the Sentinel Artifact</p>
+
+            <input id="step2" type="checkbox">
+            <h4>2. For The Elements are Four and Must be Attuned</h4> <br>
+            <p class="steps">Activate Pack-a-Punch</p>
+
+            <input id="step3" type="checkbox">
+            <h4>3. To Change the Agents of Change is to Change Everything</h4>
+            <p class="steps">Set the dials to the clocks</p>
+
+            <input id="step4" type="checkbox">
+            <h4>4. Whithin the Chain of Phases all is Conceived</h4>
+            <p class="steps">Defeat catalysts at their respective outlets</p>
+
+            <input id="step5" type="checkbox">
+            <h4>5. Before the Flame your Hubris is Devoured</h4>
+            <p class="steps">Flood the ship and Pack-a-Punch the Sentinel Artifact in the Turbine Room</p>
+
+            <input id="step6" type="checkbox">
+            <h4>6. When the Planets are Revealed the Essence is Received</h4>
+            <p class="steps">Interact with each of the planet symbols</p>
+
+            <input id="step7" type="checkbox">
+            <h4>7. Where Light Shines Not the Path Leads Inward</h4>
+            <p class="steps">Interact with the orrery in the Cargo Hold, shoot  the planets and collect the orbs in the right order</p>
+            
+            <input id="step8" type="checkbox">
+            <h4>8. Unto the Nest its Malice Unravels</h4>
+            <p class="steps">Break the ice until you reach the end of the ship</p>
+
+            <input id="step9" type="checkbox">
+            <h4>9. Behold the Eye of Malice and Despair</h4>
+            <p class="steps">Good Luck</p>
+
+            <button id="stepsReset">Reset</button>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Collectables</legend>
+
+            <div class="contain">
+                <p class="source mini-title">Shield</p>
+                <div class="triple fancy">
+                    <p class="source ">Visor</p>
+                    <input id="visor" type="checkbox" class="center">
+                </div>
+                <div class="triple fancy">
+                    <p class="source">Handle</p>
+                    <input id="handle" type="checkbox" class="center">
+                </div>
+                <div class="triple fancy">
+                    <p class="source">Counter</p>
+                    <input id="counter" type="checkbox" class="center">
+                </div>
+            </div>
+
+            <br><br><br><br><br>
+
+            <div class="contain">
+                <p class="source mini-title">Kraken Upgrade</p>
+                <div class="triple fancy">
+                    <p class="source">Chamber</p>
+                    <input id="chamber" type="checkbox" class="center">
+                </div>
+                <div class="triple fancy">
+                    <p class="source">Barrel</p>
+                    <input id="barrel" type="checkbox" class="center">
+                </div>
+                <div class="triple fancy">
+                    <p class="source">Tubing</p>
+                    <input id="tubing" type="checkbox" class="center">
+                </div>
+            </div>
+
+            <br><br><br><br><br>
+
+            <div class="contain">
+                <p class="source mini-title">Other</p>
+                <div class="double fancy fancy-2">
+                    <p class="source">Stoker's Key</p>
+                    <input id="key" type="checkbox" class="center">
+                </div>
+                <div class="double fancy fancy-2">
+                    <p class="source">Concentrated Decay</p>
+                    <input id="decay" type="checkbox" class="center">
+                </div>
+            </div>
+
+            <br><br><br><br><br>
+
+            <button id="collectReset">Reset</button>
+
+        </fieldset>
+
+        <fieldset>
+
             <legend>Clocks</legend>
 
-            <p class="source">Engine Room - Bottom Left Dial</p>
+            <p class="source mini-title">Engine Room - Bottom Left Dial</p>
             <label for="fire"><img id="fireSymbol" class="shrink center" src="../img/voyage/clock_symbols/fire.png"></label>
             <div class="contain">
                 <div class="triple">
@@ -70,7 +172,7 @@
 
             <br><br>
 
-            <p class="source">Engine Room - Top Right Dial</p>
+            <p class="source mini-title">Engine Room - Top Right Dial</p>
             <label for="water"><img id="waterSymbol" class="shrink center" src="../img/voyage/clock_symbols/water.png"></label>
             <div class="contain">
                 <div class="triple">
@@ -94,7 +196,7 @@
 
             <br><br>
 
-            <p class="source">Poop Deck - White Dial</p>
+            <p class="source mini-title">Poop Deck - White Dial</p>
             <label for="air"><img id="airSymbol" class="shrink center" src="../img/voyage/clock_symbols/air.png"></label>
             <div class="contain">
                 <div class="triple">
@@ -118,7 +220,7 @@
 
             <br><br>
 
-            <p class="source">Poop Deck - Red Dial</p>
+            <p class="source mini-title">Poop Deck - Red Dial</p>
             <label for="earth"><img id="earthSymbol" class="shrink center" src="../img/voyage/clock_symbols/earth.png"></label>
             <div class="contain">
                 <div class="triple">
@@ -149,7 +251,7 @@
             <legend>Outlets</legend>
 
             <div class="quad">
-                <label class="center">Acid</label>
+                <label class="center source mini-title">Acid</label>
                 <select id="acidOut" class="center">
                     <option disabled selected>Location</option>
                     <option>States</option>
@@ -161,7 +263,7 @@
                 </select>
             </div>
             <div class="quad">
-                <label class="center">Water</label>
+                <label class="center source mini-title">Water</label>
                 <select id="waterOut" class="center">
                     <option disabled selected>Location</option>
                     <option>States</option>
@@ -173,7 +275,7 @@
                 </select>
             </div>
             <div class="quad">
-                <label class="center">Electric</label>
+                <label class="center source mini-title">Electric</label>
                 <select id="electricOut" class="center">
                     <option disabled selected>Location</option>
                     <option>States</option>
@@ -185,7 +287,7 @@
                 </select>
             </div>
             <div class="quad">
-                <label class="center">Fire</label>
+                <label class="center source mini-title">Fire</label>
                 <select id="fireOut" class="center">
                     <option disabled selected>Location</option>
                     <option>States</option>
@@ -372,7 +474,7 @@
             <legend>Shield Parts</legend>
      
             <div class="contain">
-                <p class="source">Visor - Bridge</p>
+                <p class="source mini-title">Visor - Bridge</p>
                 <div class="triple">
                     <a href="../img/voyage/shield/voyage_visor_1.jpg" target="_blank"><img id="visor1" class="center" src="../img/voyage/shield/voyage_visor_1.jpg"></a>
                 </div>
@@ -385,7 +487,7 @@
             </div>
 
             <div class="contain">
-                <p class="source">Handle - 3rd Class/Provisions</p>
+                <p class="source mini-title">Handle - 3rd Class/Provisions</p>
                 <div class="triple">
                     <a href="../img/voyage/shield/voyage_handle_1.jpg" target="_blank"><img id="handle1" class="center" src="../img/voyage/shield/voyage_handle_1.jpg"></a>
                 </div>
@@ -398,7 +500,7 @@
             </div>
             
             <div class="contain">
-                <p class="source">Counter - States</p>
+                <p class="source mini-title">Counter - States</p>
                 <div class="triple">
                     <a href="../img/voyage/shield/voyage_counter_1.jpg" target="_blank"><img id="counter1" class="center" src="../img/voyage/shield/voyage_counter_1.jpg"></a>
                 </div>
@@ -416,7 +518,7 @@
 
             <legend>Kraken Locations</legend>
 
-            <p class="source">Chests</p>
+            <p class="source mini-title">Chests</p>
 
             <div class="contain">
                 <div class="triple">
@@ -450,7 +552,7 @@
             <legend>Kraken Upgrade Parts</legend>
 
             <div class="contain">
-                <p class="source">Chamber - 1st Class</p>
+                <p class="source mini-title">Chamber - 1st Class</p>
                 <div class="double">
                     <a href="../img/voyage/kraken/voyage_chamber_1.jpg" target="_blank"><img id="chamber1" class="center" src="../img/voyage/kraken/voyage_chamber_1.jpg"></a>
                 </div>
@@ -460,7 +562,7 @@
             </div>
 
             <div class="contain">
-                <p class="source">Barrel - Cargo Hold</p>
+                <p class="source mini-title">Barrel - Cargo Hold</p>
                 <div class="double">
                     <a href="../img/voyage/kraken/voyage_barrel_1.jpg" target="_blank"><img id="barrel1" class="center" src="../img/voyage/kraken/voyage_barrel_1.jpg"></a>
                 </div>
@@ -470,7 +572,7 @@
             </div>
             
             <div class="contain">
-                <p class="source">Tubing - Galley</p>
+                <p class="source mini-title">Tubing - Galley</p>
                 <div class="double">
                     <a href="../img/voyage/kraken/voyage_tubing_1.jpg" target="_blank"><img id="tubing1" class="center" src="../img/voyage/kraken/voyage_tubing_1.jpg"></a>
                 </div>
@@ -540,6 +642,21 @@
                     <p class="source">Planets - Sky</p>
                     <a href="https://www.reddit.com/r/CODZombies/comments/9zvfvl/voyage_of_despair_planet_locator/" target="_blank"><img id="sky" class="center" src="../img/voyage/voyage_planets.png"></a>
                     <p class="source">Source: <a href="https://www.reddit.com/r/CODZombies/comments/9zvfvl/voyage_of_despair_planet_locator/" target="_blank">Reddit</a></p>
+                </div>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Additional Resources</legend>
+
+            <div class="contain">
+                <div class="double fancy fancy-2 fancy-3">
+                    <p class="source"><a class="resource" href="https://www.ign.com/wikis/call-of-duty-black-ops-4/Voyage_of_Despair_Walkthrough" target="_blank">IGN's Walkthrough</a></p>
+                </div>
+                <div class="double fancy fancy-2 fancy-3">
+                    <p class="source"><a class="resource" href="https://callofduty.fandom.com/wiki/Kraken_(wonder_weapon)" target="_blank">Kranken - COD Zombies Wiki</a></p>
                 </div>
             </div>
 
