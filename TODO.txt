@@ -1,0 +1,94 @@
+voyage.html:
+(low) - Add mini picture of items in Collectables section
+(low) - Add something to the Planet Order section to take up more space
+(low) - outlet locations
+(low) - clock/symbol locations
+(high) - Add Kraken location based on item in chest
+
+
+
+ix.html:
+(low) - Challenges
+(medium) - Challenge Rewards
+(high) - Steps
+(high) - Shield location
+(high) - Trap pieces
+(high) - Collectables checklist (staue head, poop etc.)
+(high) - Ra trial symbols and checklist
+(high) - Death of Orion shots
+
+
+
+dead.html:
+(high) - Crystal Challenges
+(high) - Silver bullets
+(high) - Alistair's Folly symbols + upgrades
+(high) - Shield
+(high) - scratch marks
+(high) - branches
+(high) - Fireplaces
+
+
+
+ancient.html:
+(low) - tributes
+(high) - bridle
+(high) - pegasus strike?
+(high) - shield parts
+(high) - oil spills
+(high) - handle locations
+(high) - god hand ww
+(EXTREME) - finish the easter egg
+
+
+
+blood.html:
+(EXTREME) - finish the easter egg
+
+
+
+classified.html:
+(high) - shield
+(high) - teleporter
+(high) - free Winter's Howl
+
+
+
+alpha.html:
+(EXTREME) - finish the easter egg
+
+
+
+tag.html:
+(EXTREME) - finish the easter egg
+
+
+
+shadows.html:
+(high) - shield
+(EXTREME) - try to remeber how this easter egg goes lol
+
+
+
+giant.html:
+(high) - teddy bear locations
+
+
+
+eisendrache.html:
+(EXTREME) - try to remeber how this easter egg goes lol
+
+
+
+zetsubo.html:
+(EXTREME) - try to remeber how this easter egg goes lol
+
+
+
+gorod.html:
+(EXTREME) - try to remeber how this easter egg goes lol
+
+
+
+revelations.html:
+(EXTREME) - try to remeber how this easter egg goes lol
